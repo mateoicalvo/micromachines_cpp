@@ -1,0 +1,395 @@
+{
+  "ventana": {
+    "ancho": 1280,
+    "alto": 720,
+    "pantallaCompleta": false,
+    "titulo": "rpn",
+    "fps": 60
+  },
+  "factorLejaniaPista": 2.0,
+  "musica": {
+    "ambiente": "assets/sonidos/menu.wav",
+    "motor": "assets/sonidos/motor.wav",
+    "explosion": "assets/sonidos/explosion.wav",
+    "empty": "assets/sonidos/vacio.wav",
+    "choque": "assets/sonidos/choque.wav",
+    "frenada": "assets/sonidos/frenada.wav"
+  },
+  "volumen": {
+    "ambiente": 25
+  },
+  "red": {
+    "host": "localhost",
+    "puerto": "10001"
+  },
+  "fuente": {
+    "path": "assets/fonts/Kenney Pixel Square.ttf"
+  },
+  "bloques": {
+    "ancho": 256,
+    "alto": 256
+  },
+  "conversor": {
+    "pixelPorMetro": 25.6,
+    "pixelPorBloque": 256
+  },
+  "interfaz": {
+    "salud": {
+      "texto": "vida",
+      "tamañoTexto": 30,
+      "anchoTexto": 80,
+      "margenX": 0.01,
+      "margenY": 0.01
+    }
+  },
+  "animaciones": {
+    "sorlo": {
+      "uuid": 1,
+      "ancho": 250,
+      "alto": 250,
+      "sprites": [
+        "assets/sorlo/1_sorlo.png",
+        "assets/sorlo/2_sorlo.png",
+        "assets/sorlo/3_sorlo.png",
+        "assets/sorlo/4_sorlo.png"
+      ]
+    },
+    "salud": {
+      "uuid": 400,
+      "ancho": 300,
+      "alto": 23,
+      "sprites": [
+        "assets/interfaz/400.png"
+      ]
+    },
+    "crearPartida": {
+      "uuid": 300,
+      "ancho": 247,
+      "alto": 31,
+      "sprites": [
+        "assets/botones/300.png"
+      ]
+    },
+    "unirseAPartida": {
+      "uuid": 310,
+      "ancho": 247,
+      "alto": 31,
+      "sprites": [
+        "assets/botones/310.png"
+      ]
+    },
+    "salir": {
+      "uuid": 320,
+      "ancho": 247,
+      "alto": 31,
+      "sprites": [
+        "assets/botones/320.png"
+      ]
+    },
+    "jugar": {
+      "uuid": 330,
+      "ancho": 247,
+      "alto": 31,
+      "sprites": [
+        "assets/botones/330.png"
+      ]
+    },
+    "atras": {
+      "uuid": 340,
+      "ancho": 247,
+      "alto": 31,
+      "sprites": [
+        "assets/botones/340.png"
+      ]
+    },
+    "iniciarPartida": {
+      "uuid": 350,
+      "ancho": 247,
+      "alto": 31,
+      "sprites": [
+        "assets/botones/350.png"
+      ]
+    },
+    "listo": {
+      "uuid": 360,
+      "ancho": 247,
+      "alto": 31,
+      "sprites": [
+        "assets/botones/360.png"
+      ]
+    },
+    "menu": {
+      "uuid": 370,
+      "ancho": 247,
+      "alto": 31,
+      "sprites": [
+        "assets/botones/370.png"
+      ]
+    },
+    "vacio": {
+      "uuid": 380,
+      "ancho": 247,
+      "alto": 31,
+      "sprites": [
+        "assets/botones/380.png"
+      ]
+    },
+    "arriba": {
+      "uuid": 390,
+      "ancho": 50,
+      "alto": 31,
+      "sprites": [
+        "assets/botones/391.png"
+      ]
+    },
+    "abajo": {
+      "uuid": 391,
+      "ancho": 50,
+      "alto": 31,
+      "sprites": [
+        "assets/botones/390.png"
+      ]
+    },
+    "circular": {
+      "uuid": 392,
+      "ancho": 70,
+      "alto": 50,
+      "sprites": [
+        "assets/botones/392.png"
+      ]
+    },
+    "autoRojo": {
+      "uuid": 800,
+      "ancho": 80,
+      "alto": 148,
+      "sprites": [
+        "assets/autos/800.png",
+        "assets/autos/801.png",
+        "assets/autos/802.png",
+        "assets/autos/803.png",
+        "assets/autos/804.png",
+        "assets/autos/805.png",
+        "assets/autos/806.png",
+        "assets/autos/807.png",
+        "assets/autos/808.png"
+      ]
+    },
+    "autoAmarillo": {
+      "uuid": 810,
+      "ancho": 80,
+      "alto": 148,
+      "sprites": [
+        "assets/autos/810.png",
+        "assets/autos/811.png",
+        "assets/autos/812.png",
+        "assets/autos/813.png",
+        "assets/autos/814.png",
+        "assets/autos/815.png",
+        "assets/autos/816.png",
+        "assets/autos/817.png",
+        "assets/autos/818.png"
+      ]
+    },
+    "autoNegro": {
+      "uuid": 820,
+      "ancho": 80,
+      "alto": 148,
+      "sprites": [
+        "assets/autos/820.png",
+        "assets/autos/821.png",
+        "assets/autos/822.png",
+        "assets/autos/823.png",
+        "assets/autos/824.png",
+        "assets/autos/825.png",
+        "assets/autos/826.png",
+        "assets/autos/827.png",
+        "assets/autos/828.png"
+      ]
+    },
+    "autoAzul": {
+      "uuid": 830,
+      "ancho": 80,
+      "alto": 148,
+      "sprites": [
+        "assets/autos/830.png",
+        "assets/autos/831.png",
+        "assets/autos/832.png",
+        "assets/autos/833.png",
+        "assets/autos/834.png",
+        "assets/autos/835.png",
+        "assets/autos/836.png",
+        "assets/autos/837.png",
+        "assets/autos/838.png"
+      ]
+    },
+    "autoVerde": {
+      "uuid": 840,
+      "ancho": 80,
+      "alto": 148,
+      "sprites": [
+        "assets/autos/830.png",
+        "assets/autos/831.png",
+        "assets/autos/832.png",
+        "assets/autos/833.png",
+        "assets/autos/834.png",
+        "assets/autos/835.png",
+        "assets/autos/836.png",
+        "assets/autos/837.png",
+        "assets/autos/838.png"
+      ]
+    },
+    "fondoMenu": {
+      "uuid": 700,
+      "ancho": 918,
+      "alto": 515,
+      "sprites": [
+        "assets/fondo_menu.png"
+      ]
+    },
+    "fondoSala": {
+      "uuid": 710,
+      "ancho": 918,
+      "alto": 515,
+      "sprites": [
+        "assets/fondo_sala.png"
+      ]
+    },
+    "fondoPodio": {
+      "uuid": 720,
+      "ancho": 918,
+      "alto": 515,
+      "sprites": [
+        "assets/fondo_podio.png"
+      ]
+    },
+    "pasto": {
+      "uuid": 106,
+      "ancho": 256,
+      "alto": 256,
+      "sprites": [
+        "assets/pistas/200.png",
+        "assets/pistas/201.png",
+        "assets/pistas/202.png",
+        "assets/pistas/203.png",
+        "assets/pistas/204.png",
+        "assets/pistas/205.png",
+        "assets/pistas/206.png",
+        "assets/pistas/207.png",
+        "assets/pistas/208.png",
+        "assets/pistas/209.png",
+        "assets/pistas/210.png",
+        "assets/pistas/211.png",
+        "assets/pistas/212.png",
+        "assets/pistas/213.png",
+        "assets/pistas/214.png",
+        "assets/pistas/215.png",
+        "assets/pistas/216.png",
+        "assets/pistas/217.png",
+        "assets/pistas/218.png",
+        "assets/pistas/219.png",
+        "assets/pistas/220.png",
+        "assets/pistas/221.png",
+        "assets/pistas/222.png",
+        "assets/pistas/223.png",
+        "assets/pistas/224.png",
+        "assets/pistas/225.png",
+        "assets/pistas/226.png",
+        "assets/pistas/227.png",
+        "assets/pistas/228.png"
+      ]
+    },
+    "explosion": {
+      "uuid": 900,
+      "ancho": 120,
+      "alto": 120,
+      "sprites": [
+        "assets/animaciones/900.png",
+        "assets/animaciones/901.png",
+        "assets/animaciones/902.png",
+        "assets/animaciones/903.png",
+        "assets/animaciones/904.png",
+        "assets/animaciones/905.png",
+        "assets/animaciones/906.png",
+        "assets/animaciones/907.png",
+        "assets/animaciones/908.png",
+        "assets/animaciones/909.png",
+        "assets/animaciones/910.png",
+        "assets/animaciones/911.png",
+        "assets/animaciones/912.png",
+        "assets/animaciones/913.png",
+        "assets/animaciones/914.png",
+        "assets/animaciones/915.png"
+      ]
+    },
+    "cajaSalud": {
+      "uuid": 1000,
+      "ancho": 128,
+      "alto": 128,
+      "sprites": [
+        "assets/modificadores/1000.png"
+      ]
+    },
+    "boost": {
+      "uuid": 1100,
+      "ancho": 110,
+      "alto": 110,
+      "sprites": [
+        "assets/modificadores/1100.png"
+      ]
+    },
+    "piedra": {
+      "uuid": 1200,
+      "ancho": 110,
+      "alto": 110,
+      "sprites": [
+        "assets/modificadores/1200.png"
+      ]
+    },
+    "aceite": {
+      "uuid": 1300,
+      "ancho": 110,
+      "alto": 110,
+      "sprites": [
+        "assets/modificadores/1300.png"
+      ]
+    },
+    "barro": {
+      "uuid": 1400,
+      "ancho": 110,
+      "alto": 110,
+      "sprites": [
+        "assets/modificadores/1400.png"
+      ]
+    },
+    "barroGrande": {
+      "uuid": 1500,
+      "ancho": 1000,
+      "alto": 1000,
+      "sprites": [
+        "assets/modificadores/1500.png"
+      ]
+    },
+    "animacionVacia": {
+      "uuid": 9999,
+      "ancho": 1,
+      "alto": 1,
+      "sprites": [
+        "assets/autos/9999.png"
+      ]
+    }
+  },
+  "grabadora": {
+    "resolucion": {
+      "ancho": 1280,
+      "alto": 720
+    },
+    "formato": "mp4",
+    "fps": 30,
+    "bitrate": 4000000
+  },
+  "lua": {
+    "ruta": "lua_scripts/script.lua",
+    "ruta2": "lua_scripts/get_command.lua",
+    "tiempoHumano": 10
+  }
+}
