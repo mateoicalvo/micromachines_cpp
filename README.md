@@ -1,6 +1,8 @@
 # micromachines
 Clon del juego micromachines realizado en C++ & SDL2, multijugador local y online.
 
+![Alt text](screenshots/1.png?raw=true "Title")
+
 ## Librerias / programas necesarios
 
 ### Se instalan con apt install en ubuntu
