@@ -44,3 +44,17 @@ En otra terminal, mismo directorio:
   
 ## Configuración
 Dentro de la carpeta config se encuentran los archivos de configuración del juego, permitiendo cambiar la IP del servidor, el puerto y parámetros jugables del servidor y el cliente.
+
+#Screenshots
+
+![Alt text](screenshots/2.png?raw=true "Title")
+
+![Alt text](screenshots/3.png?raw=true "Title")
+
+![Alt text](screenshots/4.png?raw=true "Title")
+
+![Alt text](screenshots/5.png?raw=true "Title")
+
+![Alt text](screenshots/6.png?raw=true "Title")
+
+![Alt text](screenshots/7.png?raw=true "Title")
