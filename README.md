@@ -15,7 +15,7 @@ lua5.3 liblua5.3-dev
 
 libavutil-dev libavformat-dev libavcodec-dev libswscale-dev libswresample-dev
 
-## Compilacion
+## Compilación
 
 Clonar el repositorio.
 
@@ -29,7 +29,7 @@ En una consola
 
   make install (se recomienda -jN con N el número de núcleos)
   
-## Ejecucion
+## Ejecución
 Los ejecutables y assets necesarios se instalan en /home/user/NombreUsuario/micromachines
 
 En una terminal en dicho directorio:
