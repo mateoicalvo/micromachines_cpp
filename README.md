@@ -1,5 +1,5 @@
 # micromachines
-Clon del juego micromachines realizado en C++ & SDL2
+Clon del juego micromachines realizado en C++ & SDL2, multijugador local y online.
 
 ## Librerias / programas necesarios
 
